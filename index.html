@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     .nav{gap:40px}.brand{flex-shrink:0}.nav-links{flex-shrink:0}.hero-visual{overflow:hidden}
+    .arrow-icon{display:inline-block;width:9px;height:9px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor;transform:rotate(45deg);vertical-align:middle}
+    .product-card{display:flex;flex-direction:column}.product-card a{position:static;margin-top:auto;padding-top:14px}.product-problem{margin-bottom:0!important}
     @media (max-width: 850px){.ai-layout{grid-template-columns:1fr;gap:45px}.feature-grid{grid-template-columns:repeat(2,1fr)}}
     @media (max-width: 620px){.ai-section{padding:76px 0}.ai-section h2{font-size:35px}.solution-flow{padding-left:14px}.solution-flow strong{font-size:14px}.feature-grid{grid-template-columns:1fr}}
   </style>
@@ -29,7 +31,7 @@
         <a href="#soluciones">Soluciones</a>
         <a href="#proceso">Cómo ayudamos</a>
         <a href="#opiniones">Clientes</a>
-        <a class="nav-cta" href="#comenzar">Hablemos <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" href="#comenzar">Hablemos <span class="arrow-icon" aria-hidden="true"></span></a>
       </div>
     </nav>
   </header>
@@ -42,8 +44,8 @@
         <p class="hero-lead">Desarrollamos soluciones tecnológicas que ayudan a las empresas a automatizar procesos, mejorar su productividad y transformar la manera en que trabajan.</p>
         <p class="hero-text">Entendemos tus retos, diseñamos la solución adecuada y la convertimos en resultados medibles para tu negocio.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#soluciones">Conoce nuestras soluciones <span aria-hidden="true">↗</span></a>
-          <a class="button button-quiet" href="#comenzar">Hablemos de tu proyecto <span aria-hidden="true">→</span></a>
+          <a class="button button-primary" href="#soluciones">Conoce nuestras soluciones <span class="arrow-icon" aria-hidden="true"></span></a>
+          <a class="button button-quiet" href="#comenzar">Hablemos de tu proyecto <span class="arrow-icon" aria-hidden="true"></span></a>
         </div>
         <div class="hero-note"><span class="signal" aria-hidden="true"></span> Problemas reales. Tecnología con propósito.</div>
       </div>
@@ -56,7 +58,7 @@
             <div class="window-content"><div class="content-heading"><div><small>Oportunidad detectada</small><strong>Flujo optimizado.</strong></div><span class="date-pill">EN VIVO</span></div><div class="metric-row"><div class="tiny-metric"><span>Procesos automatizados</span><b>1,284</b><i class="trend">+18.4%</i></div><div class="tiny-metric"><span>Horas recuperadas</span><b>326 h</b><i class="trend">+12.8%</i></div></div><div class="chart"><div class="chart-label"><span>Impacto de la solución</span><b>92.6%</b></div><div class="chart-bars"><i style="height:38%"></i><i style="height:54%"></i><i style="height:46%"></i><i style="height:72%"></i><i style="height:61%"></i><i style="height:86%"></i><i style="height:96%"></i></div><div class="chart-days"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div></div></div>
           </div>
         </div>
-        <div class="floating-card card-automation"><span class="product-icon lime">↗</span><span><small>Automatización</small><b>Flujo optimizado</b></span><strong>+24%</strong></div>
+        <div class="floating-card card-automation"><span class="product-icon lime"><span class="arrow-icon" aria-hidden="true"></span></span><span><small>Automatización</small><b>Flujo optimizado</b></span><strong>+24%</strong></div>
         <div class="floating-card card-quality"><span class="product-icon coral">✦</span><span><small>Inteligencia artificial</small><b>Decisión asistida</b></span><span class="status-live">Activo</span></div>
         <div class="visual-label"><span></span> Resultados visibles</div>
       </div>
@@ -83,7 +85,7 @@
 
     <section class="benefits-section shell" id="acerca" aria-labelledby="benefits-title"><div class="benefits-copy"><p class="kicker">Una relación que evoluciona</p><h2 id="benefits-title">¿Por qué trabajar<br><em>con nosotros?</em></h2><p>La tecnología debe responder a tu realidad y generar un impacto que puedas reconocer.</p></div><div class="benefit-list"><div><b>01</b><span><strong>Soluciones a la medida</strong><small>Diseñamos soluciones adaptadas a cada necesidad, proceso y objetivo.</small></span></div><div><b>02</b><span><strong>Tecnología moderna</strong><small>Utilizamos software, automatización e inteligencia artificial de forma práctica.</small></span></div><div><b>03</b><span><strong>Enfoque en resultados</strong><small>La tecnología debe generar un impacto real y medible en tu negocio.</small></span></div><div><b>04</b><span><strong>Evolución continua</strong><small>Nuestras soluciones pueden crecer y cambiar contigo.</small></span></div></div></section>
 
-    <section class="cta-section shell" id="comenzar" aria-labelledby="cta-title"><div class="cta-panel"><div><p class="kicker">Hagamos que suceda</p><h2 id="cta-title">¿Tienes un reto que<br>la tecnología pueda resolver?</h2><p>Cuéntanos qué necesitas y exploremos juntos cómo el software y la inteligencia artificial pueden ayudar a tu negocio.</p></div><div class="cta-actions"><a class="button button-dark" href="mailto:hola@nexoos.example">Hablemos de tu proyecto <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#productos">Explorar soluciones <span aria-hidden="true">→</span></a></div></div></section>
+    <section class="cta-section shell" id="comenzar" aria-labelledby="cta-title"><div class="cta-panel"><div><p class="kicker">Hagamos que suceda</p><h2 id="cta-title">¿Tienes un reto que<br>la tecnología pueda resolver?</h2><p>Cuéntanos qué necesitas y exploremos juntos cómo el software y la inteligencia artificial pueden ayudar a tu negocio.</p></div><div class="cta-actions"><a class="button button-dark" href="mailto:hola@nexoos.example">Hablemos de tu proyecto <span class="arrow-icon" aria-hidden="true"></span></a><a class="button button-outline" href="#productos">Explorar soluciones <span class="arrow-icon" aria-hidden="true"></span></a></div></div></section>
   </main>
 
   <footer class="footer"><div class="shell footer-grid"><div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Nexo<span>OS</span></span></a><p>Socios tecnológicos para empresas que quieren avanzar.</p><small>© 2026 NexoOS. Todos los derechos reservados.</small></div><div class="footer-links"><div><b>Soluciones</b><a href="#productos">Software</a><a href="#productos">Automatización</a><a href="#soluciones">Inteligencia Artificial</a><a href="#productos">Integración</a><a href="#productos">Analítica</a></div><div><b>Empresa</b><a href="#acerca">Nosotros</a><a href="#productos">Soluciones</a><a href="#opiniones">Clientes</a><a href="mailto:hola@nexoos.example">Contacto</a></div><div><b>Recursos</b><a href="#comenzar">Documentación</a><a href="#comenzar">Soporte</a><a href="#comenzar">Preguntas frecuentes</a></div><div><b>Legal</b><a href="#comenzar">Política de privacidad</a><a href="#comenzar">Términos y condiciones</a></div></div></div></footer>
